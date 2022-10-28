@@ -1,23 +1,16 @@
-const app = require('express')();
-const port = 3000;
+const express = require('express');
+const app = express();
 
-app.get("/", (req, res) => {
-    res.json("Hello")
-    res.send("cauaau")
-    //res.sendFile(__dirname + "/public/index.html")
-});
+app.listen(process.env.PORT || 3000);
 
-app.get("/about", (req, res) => {
-    res.send("cauaau")
-    //res.sendFile("/api/about.html")
-});
+app.use(express.static('public'))
 
-app.get("/index", (req, res) => {
-    res.sendFile("/api/index.html")
-});
+app.get('/', (req, res) => {
+    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+  })
 
-app.listen(port, () => {
-    return console.log(`Express is listening at http://localhost:${port}`);
-  });
-  
-  module.exports = app;
+  app.get('/borec', (req, res) => {
+    res.sendFile('borec.html', {root: path.join(__dirname, 'public')});
+  })
+
+  module.exports = app
