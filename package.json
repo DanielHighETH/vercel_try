@@ -1,0 +1,23 @@
+{
+  "name": "vercel_try",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielHighETH/vercel_try.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielHighETH/vercel_try/issues"
+  },
+  "homepage": "https://github.com/DanielHighETH/vercel_try#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
