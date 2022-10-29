@@ -23,7 +23,7 @@ app.get("/json", (req, res) => {
 });
 
 app.get("/folder", (req, res) => {
-  let rawData = fs.readFileSync("/public/metadata/metadata.json")
+  let rawData = fs.readFileSync(__dirname + "/public/metadata/metadata.json")
   let parsedData = JSON.parse(rawData)
   res.json(parsedData)
 });
