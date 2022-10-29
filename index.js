@@ -13,9 +13,6 @@ app.get("/borec", (req, res) => {
   res.sendFile(__dirname + "/public/borec.html")
 });
 
-  app.listen(port, () => {
+app.listen(port, () => {
     return console.log(`Express is listening at http://localhost:${port}`);
   });
-  
-
-  module.exports = app
