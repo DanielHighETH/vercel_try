@@ -1,0 +1,126 @@
+[
+    {
+      "name": "Genesis Land #1",
+      "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+      "attributes": [
+        {
+          "trait_type": "Community",
+          "value": "1"
+        },
+        {
+          "trait_type": "Grass",
+          "value": 0
+        },
+        {
+          "trait_type": "Wood",
+          "value": 392
+        },
+        {
+          "trait_type": "Stone",
+          "value": 8
+        },
+        {
+          "trait_type": "Water",
+          "value": 0
+        },
+        {
+          "trait_type": "Structures",
+          "value": "NO"
+        }
+      ],
+      "image": "https://wg-land.s3.us-west-2.amazonaws.com/1.png"
+    },
+    {
+      "name": "Genesis Land #10",
+      "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+      "attributes": [
+        {
+          "trait_type": "Community",
+          "value": "1"
+        },
+        {
+          "trait_type": "Grass",
+          "value": 0
+        },
+        {
+          "trait_type": "Wood",
+          "value": 268
+        },
+        {
+          "trait_type": "Stone",
+          "value": 0
+        },
+        {
+          "trait_type": "Water",
+          "value": 132
+        },
+        {
+          "trait_type": "Structures",
+          "value": "NO"
+        }
+      ],
+      "image": "https://wg-land.s3.us-west-2.amazonaws.com/10.png"
+    },
+    {
+      "name": "Genesis Land #100",
+      "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+      "attributes": [
+        {
+          "trait_type": "Community",
+          "value": "1"
+        },
+        {
+          "trait_type": "Grass",
+          "value": 156
+        },
+        {
+          "trait_type": "Wood",
+          "value": 128
+        },
+        {
+          "trait_type": "Stone",
+          "value": 36
+        },
+        {
+          "trait_type": "Water",
+          "value": 80
+        },
+        {
+          "trait_type": "Structures",
+          "value": "NO"
+        }
+      ],
+      "image": "https://wg-land.s3.us-west-2.amazonaws.com/100.png"
+    },
+    {
+      "name": "Genesis Land #1000",
+      "description": "One of only 20,000 Genesis Land plots that will ever exist in Wolf Game.",
+      "attributes": [
+        {
+          "trait_type": "Community",
+          "value": "5"
+        },
+        {
+          "trait_type": "Grass",
+          "value": 112
+        },
+        {
+          "trait_type": "Wood",
+          "value": 0
+        },
+        {
+          "trait_type": "Stone",
+          "value": 0
+        },
+        {
+          "trait_type": "Water",
+          "value": 288
+        },
+        {
+          "trait_type": "Structures",
+          "value": "NO"
+        }
+      ],
+      "image": "https://wg-land.s3.us-west-2.amazonaws.com/1000.png"
+    }
+]
